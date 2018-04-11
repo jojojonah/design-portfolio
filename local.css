@@ -67,16 +67,21 @@
   margin-right: 12px;
 }
 
-.apple-logo {
-  width: 18px;  
+.panel > *:last-child {
+  margin-right: unset;
 }
 
-.apple-logo::before {
+.panel .icons-b {
+  width: 18px; 
+}
+
+.panel .icons-b::before {
   width: inherit;
   height: inherit;
-  background-size: 14px;
+  background-size: 12px;
 }
 
-.portfolio {
+.portfolio,
+.name {
   font-weight: bold;
 }
